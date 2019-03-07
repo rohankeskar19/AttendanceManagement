@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimary1">#2196f3</color>
+    <color name="colorPrimaryDark">#0069c0</color>
+    <color name="colorAccent">#6ec6ff</color>
+    <color name="colorWhite">#fff</color>
+    <color name="shadow">#696969</color>
+    <color name="SecondaryDark">#9e9fa8</color>
+    <color name="card_color">#6effff</color>
+
+    <color name="green">#00bfa5</color>
+    <color name="purple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="pink">#ff4081</color>
+    <color name="lighGray">#ededed</color>
+    <color name="darkGray">#dbdbdb</color>
+    <color name="color_black">#000</color>
+    <color name="lightRed">#FF5E52</color>
+
+    <!--Classrooms activity theme-->
+    <color name="colorPrimaryClassrooms">#ab47bc</color>
+    <color name="colorPrimaryDarkClassrooms">#790e8b</color>
+    <color name="colorAccentClassrooms">#df78ef</color>
+
+    <!--Analytics activity theme-->
+    <color name="colorPrimaryAnalytics">#388e3c</color>
+    <color name="colorPrimaryDarkAnalytics">#00600f</color>
+    <color name="colorAccentAnalytics">#6abf69</color>
+
+
+    <!--Notifications activity theme-->
+    <color name="colorPrimaryNotifications">#e91e63</color>
+    <color name="colorPrimaryDarkNotifications">#b0003a</color>
+    <color name="colorAccentNotifications">#ff6090</color>
+
+
+    <!--Attendance activity theme-->
+    <color name="colorPrimaryAttendance">#ffa000</color>
+    <color name="colorPrimaryDarkAttendance">#c67100</color>
+    <color name="colorAccentAttendance">#ffd149</color>
+
+</resources>

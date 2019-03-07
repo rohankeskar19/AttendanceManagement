@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Attendance Management</string>
+    <string name="title_bar">Home</string>
+    <string name="Login">Sign in</string>
+    <string name="activity_home_toolbar_text">Home</string>
+    <string name="activity_search_toolbar_text">Search</string>
+    <string name="activity_notifications_toolbar_text">Notifications</string>
+    <string name="activity_account_toolbar_text">Profile</string>
+
+    <!--Search section-->
+    <string name="search_hint">Search classroom id</string>
+
+    <!--Sign in section-->
+    <string name="signin">Sign in"</string>
+    <string name="login">Login</string>
+    <string name="createAccount">Create Account</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="login_text">Welcome to Attendance Management</string>
+    <string name="app_information">This app is made for teachers and students to conveniently store and manage attendance</string>
+
+    <!--Sign up section-->
+    <string name="signup">Sign up</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email_signup">Email</string>
+    <string name="password_signup">Password</string>
+    <string name="user_name_signup">User Name</string>
+    <string name="password_confirm_signup">Confirm Password</string>
+    <string name="passwords_not_match_signup">passwords do not match</string>
+
+    <!--Error messages-->
+    <string name="field_error">Field can\'t be empty</string>
+    <string name="first_name_error">You should enter your first name</string>
+    <string name="last_name_error">You should enter your last name</string>
+    <string name="email_error">You should enter your email</string>
+    <string name="password_error">You should enter your password</string>
+    <string name="user_name_error">You should enter your user name</string>
+    <string name="empty_space_error">There should not be a space between text</string>
+    <string name="user_name_exists_error">user name already exists</string>
+
+    <string name="invalid_password">Invalid Password</string>
+    <string name="invalid_user">Invalid Email id</string>
+    <string name="email_already_used_error">Email id is already used</string>
+    <string name="weak_password">Password should be at least 6 characters</string>
+    <string name="email_not_verified">Your email id is not verified you should verify your email id first to access the features of this app,Click this prompt to resend verification email</string>
+
+    <!--Strings for students-->
+    <string name="classroom_desc_student">View classroom</string>
+    <string name="analytics_desc_student">View monthly analytics</string>
+    <string name="notification_desc_student">Send notification to classroom</string>
+    <string name="attendance_desc_student">View your attendance</string>
+
+
+    <!--Strings for teachers-->
+    <string name="classroom_desc_teacher">View or create classrooms</string>
+    <string name="analytics_desc_teacher">View monthly analytics of your classrooms</string>
+    <string name="notification_desc_teacher">Send notification to students</string>
+    <string name="attendance_desc_teacher">View attendance of classrooms</string>
+
+
+    <!--Firebase Database Strings-->
+    <string name="DB_users">users</string>
+    <string name="DB_classrooms">classrooms</string>
+    <string name="DB_subjects">subjects</string>
+    <string name="DB_requests">requests</string>
+
+
+
+    <string name="request_state_unaccepted">unaccepted</string>
+    <string name="request_state_accepted">accepted</string>
+
+</resources>

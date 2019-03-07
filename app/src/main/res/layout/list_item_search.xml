@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/parent_text_layout"
+    android:background="@color/colorWhite">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_black"
+            android:background="@color/colorWhite"
+            android:id="@+id/classroomSearchTextView"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:text="rohankeskar89@gmail.com"
+            android:foreground="?attr/selectableItemBackground"
+            android:focusable="false"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_search"
+            android:background="@color/colorWhite"
+            android:id="@+id/send_request_image"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="16dp"/>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ClassRoomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryClassrooms</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkClassrooms</item>
+        <item name="colorAccent">@color/colorAccentClassrooms</item>
+    </style>
+
+
+    <style name="AnalyticsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimaryAnalytics</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAnalytics</item>
+        <item name="colorAccent">@color/colorAccentAnalytics</item>
+    </style>
+
+    <style name="NotificationsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryNotifications</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNotifications</item>
+        <item name="colorAccent">@color/colorAccentNotifications</item>
+    </style>
+
+    <style name="AttendanceTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryAttendance</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAttendance</item>
+        <item name="colorAccent">@color/colorAccentAttendance</item>
+    </style>
+
+</resources>

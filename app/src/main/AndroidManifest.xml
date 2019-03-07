@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rohanspc.attendancemanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        tools:replace="android:icon"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home.MainActivity"
+            android:screenOrientation="portrait"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Account.AccountActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".Search.SearchActivity"
+            android:screenOrientation="portrait"
+           >
+        </activity>
+
+        <activity
+            android:name=".Notification.NotificationActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".Login.LoginActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".Login.SignupActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.ClassroomActivityPackage.ClassroomActivity"
+            android:theme="@style/ClassRoomTheme"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.ClassroomActivityPackage.ClassroomDetailedActivity"
+            android:theme="@style/ClassRoomTheme"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.AnalyticsActivityPackage.AnalyticsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AnalyticsTheme"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.AnalyticsActivityPackage.analyticsSubActivity.StudentAttendanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AnalyticsTheme"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.AnalyticsActivityPackage.analyticsSubActivity.AnalyticsSubActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AnalyticsTheme"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.AnalyticsActivityPackage.analyticsSubActivity.SubjectsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AnalyticsTheme"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.NotificationSubActivityPackage.NotificationSubActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NotificationsTheme"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.NotificationSubActivityPackage.ComposeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NotificationsTheme"
+            >
+        </activity>
+
+
+        <activity
+            android:name=".Home.SubActivities.AttendanceActivityPackage.AttendanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AttendanceTheme"
+            >
+        </activity>
+
+        <activity
+            android:name=".Home.SubActivities.AttendanceActivityPackage.attendanceReciever.AttendanceRecieverActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AttendanceTheme"
+            >
+        </activity>
+    </application>
+
+</manifest>

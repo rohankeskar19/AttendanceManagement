@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/student_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rohan Keskar"
+            android:textSize="20sp"
+            android:textColor="@color/color_black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/student_rollno_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textSize="20sp"
+            android:textColor="@color/color_black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/classroom_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TE B"
+            android:textSize="20sp"
+            android:textColor="@color/color_black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/subject_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CN"
+            android:textSize="20sp"
+            android:textColor="@color/color_black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/attendance_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance : 56%"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_black"
+            
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

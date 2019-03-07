@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--Top tool bar-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout1">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary1"
+                app:title="@string/activity_notifications_toolbar_text"
+                app:titleTextColor="@color/colorWhite"
+                android:id="@+id/toolbar"
+                />
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                android:id="@+id/refresh_layout">
+
+                <com.example.rohanspc.attendancemanagement.RecyclerViewClassrooms
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/notification_recyclerview">
+
+
+                </com.example.rohanspc.attendancemanagement.RecyclerViewClassrooms>
+
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        </RelativeLayout>
+
+        <include layout="@layout/layout_bottom_navigation_view"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
